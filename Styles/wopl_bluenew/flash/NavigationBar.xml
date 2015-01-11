@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<flash>
+  <NOF>
+    <structure type="Menu">
+    <menuitem label="Schltf.-Text" instanceName="mi_0001"/>
+    <menuitem label="Schltf.-Text" instanceName="mi_0002"/>
+    <menuitem label="Schltf.-Text" instanceName="mi_0003"/>
+    <menuitem label="Schltf.-Text" instanceName="mi_0004"/>
+    </structure>
+    <display>Current Level</display>
+    <include>
+      <page type="Child pages"/>
+      <page type="Parent page"/>
+      <page type="Home page"/>
+    </include>
+    <target>(none)</target>
+    <orientation>horizontal</orientation>
+  </NOF>
+  <UserDefined>
+  </UserDefined>
+</flash>

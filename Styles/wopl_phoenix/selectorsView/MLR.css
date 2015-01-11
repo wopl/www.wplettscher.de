@@ -1,0 +1,26 @@
+.TogglePaneFancyHeader {
+	BORDER-RIGHT: #fff 2px inset;
+	BORDER-LEFT: #fff 2px inset;	
+	BORDER-BOTTOM: #fff 2px inset;
+	BORDER-TOP: #fff 2px inset;
+	PADDING-RIGHT: 1em; 
+	BACKGROUND-POSITION: right 50%; 
+	PADDING-LEFT: 1em; /*FONT-SIZE: 1em; */
+	BACKGROUND-IMAGE: url("view_remove.png"); 
+	PADDING-BOTTOM: 0px; 
+    COLOR: white; 
+	PADDING-TOP: 0px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: blue;
+	font-family: verdana;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.TogglePaneFancyHeaderClosed {
+	BORDER-RIGHT: #fff 2px outset; 
+	BORDER-TOP: #fff 2px outset; 
+    BORDER-LEFT: #fff 2px outset; 
+	BORDER-BOTTOM: #fff 2px outset;
+	BACKGROUND-IMAGE: url("view_top_bottom.png"); 
+}

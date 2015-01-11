@@ -1,0 +1,98 @@
+
+HR	{color: #333399}					
+.st{color:#CC0033; cursor:hand; font-style:oblique; text-decoration:line-through overline underline;}
+.stOver{color:#ffffff; font-weight:bold; cursor:hand;}
+.elementSelect{border:0.1cm groove blue }
+.elementDeselect{}
+
+
+.linkBar {		
+    font-color: red;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration:none;
+}
+.linkBar:hover {	
+    font-color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;	
+}
+
+body {
+  margin: 10px;
+}
+a:link {
+  color: #0000FF;
+}
+a:visited {
+  color: #0000FF;
+}
+a:hover {
+  color: #0000FF;
+}
+a:active {
+  color: #0000FF;
+}
+.label {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-left: 5px;
+  color: #000000;
+  white-space: nowrap;
+}
+.labelLink {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-left: 5px;
+  color: #0000FF;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
+.dataList {  
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  vertical-align: text-top;
+  white-space: nowrap;		
+}
+.objSelected {
+  border: 2px solid #000000;
+  padding: 3px;
+}
+.objNormal {
+  padding: 5px;
+}
+
+.title {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #999999;
+  font-size: 17px;
+  background-image: url(labels/sv_title_div.gif);
+  background-repeat: repeat-x;
+  height: 31px;
+  vertical-align: top;
+  padding-top: 4px;
+  white-space: nowrap;	
+}
+
+.invalidImage {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: medium;
+  line-height: 20px;
+  padding-left: 5px;
+  color: red;
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+}

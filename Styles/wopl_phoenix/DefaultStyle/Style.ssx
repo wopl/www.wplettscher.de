@@ -1,0 +1,103 @@
+<DefaultStyle>
+   <Banners>
+    <Banner id="2" type="Flash" name="Flash Banner">
+      <Flash path="flash/Banner.swf" connectorUrl="flash/Banner.xml" width="565" height="45">
+        <Param name="Effect" caption="Effect" type="externalVar" dataType="list" value="Fade In">
+          <Option>None</Option>
+          <Option>Blinds</Option>
+          <Option>Dissolve</Option>
+          <Option>Elastic</Option>
+          <Option>Fade In</Option>
+          <Option>Fly In</Option>
+          <Option>Mask</Option>
+          <Option>Zoom In</Option>
+        </Param>
+        <Param name="BackgroundColor" caption="Background" type="externalVar" dataType="color" value="#B3D5D8"/>
+        <Param name="BackgroundType" caption="Fill" type="externalVar" dataType="list" value="Gradient">
+          <Option>Gradient</Option>
+          <Option>Solid</Option>
+        </Param>
+        <Param name="LabelFont" dataType="font" caption="Font" type="externalVar" value="" lowerLimit="5" upperLimit="100">
+      <bold>false</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <face>_sans</face>
+      <color>0x008FAF</color>
+      <size>20</size>
+      <antialias>true</antialias>
+      <align>2</align>
+    </Param>
+        <Param name="LabelVAlign" caption="Vert Align" type="externalVar" dataType="list" value="Middle">
+          <Option>Top</Option>
+          <Option>Middle</Option>
+          <Option>Bottom</Option>
+        </Param>
+        <Param name="LabelHAlign" caption="Horz Align" type="externalVar" dataType="list" value="Center">
+          <Option>Left</Option>
+          <Option>Center</Option>
+          <Option>Right</Option>
+        </Param>
+        <Param name="CornerType" caption="Corner Type" type="externalVar" dataType="list" value="Round">
+          <Option>None</Option>
+          <Option>Diagonal</Option>
+          <Option>Round</Option>
+        </Param>
+        <Param name="CornerRadius" caption="Corner Radius" type="externalVar" dataType="number" value="10" upperLimit="20" lowerLimit="0"/>
+        <Param name="BorderColor" caption="Border" type="externalVar" dataType="color" value="#999999"/>
+        <Param name="BorderThickness" caption="Border Thickness" type="externalVar" dataType="number" value="2" upperLimit="50" lowerLimit="0"/>
+        <Param name="Quality" caption="Quality" type="playerParam" dataType="list" value="High" access="private" upperLimit="20" lowerLimit="0">
+          <Option>Low</Option>
+          <Option>Autolow</Option>
+          <Option>Medium</Option>
+          <Option>High</Option>
+          <Option>Autohigh</Option>
+          <Option>Best</Option>
+        </Param>                
+        <Param name="WMode" caption="WMode" type="playerParam" dataType="list" value="Transparent" access="private" upperLimit="20" lowerLimit="0">
+          <Option>Opaque</Option>
+          <Option>Transparent</Option>                
+          <Option>Window</Option>
+        </Param>
+      </Flash>
+    </Banner> 
+   </Banners>
+
+  <Navbar>
+    <NavbarState name="FlashNavbar" id="13" type="Flash">
+       <Button>
+          <ButtonState id="14" type="Flash" name="Flashbutton" parent="13">
+            <Flash path="flash/NavigationBar.swf" connectorUrl="flash/NavigationBar.xml">
+              <Param name="BaseColor" caption="Background" type="externalVar" dataType="color" value="#b3d5d8"/>
+              <Param name="RollOverColor" caption="Rollover" type="externalVar" dataType="color" value="#008FAF"/>
+              <Param name="TextRollOverColor" caption="RollOver Font" type="externalVar" dataType="color" value="#B3D5D8"/>
+        <Param name="LabelFont" dataType="font" caption="Font" type="externalVar" value="" lowerLimit="5" upperLimit="13">
+          <bold>false</bold>
+          <italic>false</italic>
+          <underline>false</underline>
+          <face>_sans</face>
+          <color>0x008FAF</color>
+          <size>12</size>
+          <antialias>false</antialias>
+          <align>2</align>
+        </Param>
+              <Param name="Flyout" caption="Flyouts" type="externalVar" dataType="boolean" value="true" access="enabled" />
+              <Param name="Quality" caption="Quality" type="playerParam" dataType="list" value="High" access="private" upperLimit="20" lowerLimit="0">
+                <Option>Low</Option>
+                <Option>Autolow</Option>
+                <Option>Medium</Option>
+                <Option>High</Option>
+                <Option>Autohigh</Option>
+                <Option>Best</Option>
+              </Param>                
+              <Param name="WMode" caption="WMode" type="playerParam" dataType="list" value="Transparent" access="private" upperLimit="20" lowerLimit="0">
+                <Option>Opaque</Option>
+                <Option>Transparent</Option>                
+                <Option>Window</Option>
+              </Param>
+            </Flash>
+          </ButtonState>
+       </Button>
+    </NavbarState>
+  </Navbar>
+</DefaultStyle>
+
