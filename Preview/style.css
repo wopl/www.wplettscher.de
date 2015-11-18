@@ -1,45 +1,45 @@
 /* CSS definition file containing sitestyle stylesheets */
-BODY { font-family: Arial, Helvetica, Geneva, Sans-serif, sans-serif; font-size: small; font-weight: normal; font-style: normal; background-color: rgb(255,255,255); background-image: url( "file:///D:/GitHub/www.wplettscher.de/Styles/wopl_phoenix/Images/background.gif" )}
+BODY { font-family: Arial,  Helvetica,  Geneva,  Sans-serif,  sans-serif; font-size: small; font-weight: normal; font-style: normal; background-color: rgb(255,255,255); background-image: url( "../assets/images/background.gif" )}
  A:active { color: rgb(255,0,0)}
  A:link { color: rgb(0,51,204)}
  A:visited { color: rgb(153,0,153)}
- P { font-family: Arial, Helvetica, Geneva, Sans-serif, sans-serif; font-size: small; font-weight: normal; font-style: normal}
- H3 { font-family: "Trebuchet MS",  Tahoma,  Verdana,  Arial,  Helvetica,  Sans-serif,  sans-serif; font-size: small; color: rgb(255,255,255); font-weight: bold; text-decoration: none ; text-align: left; clear: left; background-color: rgb(255,255,255); background-image: url( "file:///D:/GitHub/www.wplettscher.de/Styles/wopl_phoenix/Images/heading_bkgrnd.gif" ); background-repeat: repeat; padding-left: 5pt; padding-top: 3pt; padding-bottom: 3pt}
- .TextNavBar { font-size: xx-small}
+ P { font-family: Arial,  Helvetica,  Geneva,  Sans-serif,  sans-serif; font-size: small; font-weight: normal; font-style: normal}
+ H3 { font-family: "Trebuchet MS",   Tahoma,   Verdana,   Arial,   Helvetica,   Sans-serif,   sans-serif; font-size: small; color: rgb(255,255,255); font-weight: bold; text-decoration: none ; text-align: left; clear: left; background-color: rgb(255,255,255); background-image: url( "../assets/images/heading_bkgrnd.gif" ); background-repeat: repeat; padding-left: 5pt; padding-top: 3pt; padding-bottom: 3pt}
+ .TextNavBar{ font-size: xx-small}
  A:hover { color: rgb(255,0,0)}
  
-.nof_wopl_phoenixBanners1-Banner1 {
+.nof_wopl_phoenixBanners1-Banner1{
 font-family:Trebuchet MS ; font-size:24; font-weight:700; font-style:normal; color:#ffffff 
 }
 
-.nof_wopl_phoenixNavbar2-Regular {
+.nof_wopl_phoenixNavbar2-Regular{
 font-family:Trebuchet MS ; font-size:10; font-weight:700; font-style:normal; color:#ffffff 
 }
 
-.nof_wopl_phoenixNavbar4-Rollover {
+.nof_wopl_phoenixNavbar4-Rollover{
 font-family:Trebuchet MS ; font-size:10; font-weight:700; font-style:normal; color:#ffffff 
 }
 
-.nof_wopl_phoenixNavbar6-Highlighted {
+.nof_wopl_phoenixNavbar6-Highlighted{
 font-family:Trebuchet MS ; font-size:10; font-weight:700; font-style:normal; color:#ffffff 
 }
 
-.nof_wopl_phoenixNavbar8-HighlightedRollover {
+.nof_wopl_phoenixNavbar8-HighlightedRollover{
 font-family:Trebuchet MS ; font-size:10; font-weight:700; font-style:normal; color:#ffffff 
 }
 
-.nof_wopl_phoenixNavbar3-Regular {
+.nof_wopl_phoenixNavbar3-Regular{
 font-family:Trebuchet MS ; font-size:10; font-weight:700; font-style:normal; color:#ffffff 
 }
 
-.nof_wopl_phoenixNavbar5-Rollover {
+.nof_wopl_phoenixNavbar5-Rollover{
 font-family:Trebuchet MS ; font-size:10; font-weight:700; font-style:normal; color:#ffffff 
 }
 
-.nof_wopl_phoenixNavbar7-Highlighted {
+.nof_wopl_phoenixNavbar7-Highlighted{
 font-family:Trebuchet MS ; font-size:10; font-weight:700; font-style:normal; color:#ffffff 
 }
 
-.nof_wopl_phoenixNavbar9-HighlightedRollover {
+.nof_wopl_phoenixNavbar9-HighlightedRollover{
 font-family:Trebuchet MS ; font-size:10; font-weight:700; font-style:normal; color:#ffffff 
 }
